@@ -1,0 +1,78 @@
+     * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 780px;
+            background-color: #f4f4f4;
+            background: url(img/city.jpg) no-repeat center center/cover;
+            margin: 0px;
+        }
+        .container {
+            text-align: center;
+            background: transparent;
+            padding: 50px;
+            border-radius: 10px;
+            border: 10px solid solid black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 50px;
+            color: whitesmoke;
+        }
+        p {
+            font-size: 20px;
+            margin: 15px 0;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: 0.3s ease-in-out;
+            width: 180px;
+        }
+        .btn:hover {
+            background-color: lime;
+            transition: 0.3s ease-in-out;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+        .navbar {
+            width: 100%;
+            background: transparent;
+            padding: 10px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+        .navbar li {
+            margin: 0 15px;
+        }
+        .navbar a {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        .navbar a:hover {
+            color: lightblue;
+        }
