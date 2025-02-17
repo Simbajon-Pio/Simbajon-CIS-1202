@@ -1,0 +1,171 @@
+
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #5f6750; 
+            color: white; 
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(to right, #2b003d, #4b0082); 
+            color: white;
+            padding: 20px 0;
+            background-image: url(/images/wat.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: 20%;
+            height: 200px;
+        }
+           
+        
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+            color: white; 
+            text-align: center;
+        }
+        header p {
+            font-size: 1.3em;
+            margin-top: 50px;
+            color: #b6d0a9;
+            text-align: center;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #20211e;
+            z-index: 1000;
+            margin: 20x ;
+        }
+        nav a {
+            text-decoration: none;
+            color: #c3dda0; 
+            font-size: 1.2em;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #a0ab92d5; 
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #b6d0a9; 
+        }
+        .about {
+            background-color: #20211e;
+            border: 1px solid #4e5038; 
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 900px;
+            display: inline-block;
+            text-align: justify;
+            box-shadow: 0 4px 6px rgba(97, 95, 62, 0.3);
+            line-height: 35px;
+            text-align: center;
+        }
+        .about-img {
+            display: block;
+            height: 200px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            background-position: 100%;
+        }
+        
+        .contact {
+            background-color: #20211e;
+            border: 1px solid #20211e; 
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 900px;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            width: calc(33.333% - 20px);
+            max-width: 300px;
+            background: #6a7050;
+            padding: 15px;
+            border: 1px solid #848f64; 
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .gallery-item h3 {
+            color: #c2cfa7; 
+        }
+        .gallery-item p {
+            color: #bec199; 
+        }
+        footer {
+            background: #8b9578;
+            color: white; 
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #a9b286; 
+        }
+
+        .gallery-item {
+        width: calc(33.333% - 20px);
+        max-width: 300px;
+        background: #20211e;
+        padding: 15px;
+        border: 1px solid #2e3024;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-item:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    a {
+        color: #c6c2a4;
+        text-decoration: none;
+        transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+    a:hover {
+        color: #c0c4a9;
+        text-shadow: 0 0 8px #dee4b1; 
+    }
+
+    nav ul {
+        list-style: none; 
+        padding: 0;
+        margin: 0;
+        margin-left: 295px;
+        margin-right: 295px;
+        text-align: center;
+        
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+        text-align: center
+    }
