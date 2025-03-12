@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#keys {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+   gap: 10px;
+   padding: 15px;
+}
+#calculator {
+  font-family: 'Times New Roman', Times, serif; 
+  background-color: gainsboro;
+  border-radius: 10px;
+  max-width: 500px;
+  overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding: 10px;;
+    font-size: 5rem;
+    text-align: justify;
+    border: none;
+    background-color: beige;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgray;
+}
+button:active {
+    background-color: hsl(0, 0%, 45%) 
+}
+.operator-btn{
+    background-color: purple;
+}
+.operator-btn:hover {
+    background-color: rgb(162, 98, 162);
+}
+.operator-btn:active {
+    background-color: rgb(107, 35, 107);
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .calculator {
+    background: #1e1e1e;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode #display {
+    background: #333;
+    color: #fff;
+  }
+  
+  .dark-mode button {
+    background: #444;
+    color: #fff;
+  }
+  
+  .dark-mode button:hover {
+    background: #555;
+  }
